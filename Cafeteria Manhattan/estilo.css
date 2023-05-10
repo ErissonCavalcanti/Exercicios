@@ -1,0 +1,299 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.container-logo{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #604829;
+    z-index: 1;
+    }
+
+  nav {
+    position: fixed;
+    top: 35px;
+    right: 400px;
+    font-family: 'Oswald', sans-serif;
+   
+}
+    
+.img-logo{
+    position: fixed;
+    left: 345px;
+    width: 95px;
+    height: 95px;
+  
+}
+
+a{
+    color: #aa9767;
+    margin: 0 15px;
+    font-size: 20px;
+    text-shadow: 2px 5px black ;
+    text-decoration: none;
+}
+#banner{
+    background-image: url("assets/parallax-imagem1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+   font-family: 'Fraunces', serif;
+    position: absolute;
+    bottom: 34%;
+   left: 16%;
+   color: white;
+   font-size: 80px;
+   text-align: center;
+   font-weight: normal;
+   
+}
+.informacoes h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #aa9767;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+p{
+    width: 1000px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    line-height: 45px ;
+    margin-bottom: 20px;
+}
+
+.section-2 {
+    background-image: url("/assets/parallax-imagem2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    
+}
+
+.section-2{
+    position: relative;
+    
+}
+
+.texto-img2{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 39%;
+    bottom: 220px;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    background-color: #604829;
+    border:  6px solid  #604829;
+    padding: 0 25px;
+    font-size: 30px;
+    
+
+}
+
+.section-3{
+    position:relative ;
+}
+
+.texto-img3{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 40%;
+    bottom: 200px;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    background-color: #604829;
+    border:  6px solid  #604829;
+    padding: 0px 25px;
+    font-size: 30px;
+   
+}
+
+
+.section-3{
+    background-image: url(assets/parallax-imagem3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+   
+}
+
+.section-4{
+    position: relative;
+}
+
+.texto-img4{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 38%;
+    top: 100px;
+    color: white;
+    background-color: #604829;
+    border:  6px solid  #604829;
+    padding: 2px 100px;
+    font-size: 30px;
+   }
+
+.section-4{
+    background-image: url(assets/parallax-imagem4.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+}
+
+
+iframe{
+    position: relative;
+    top: 300px;
+    left: 28%;
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+
+.texto-contatos{
+    background-color: #604829;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 450px;
+    width: 600px;
+    padding: 15px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+#horarios {
+    background-image: url(assets/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;        
+    height: 100vh;
+    list-style: none;
+    position: relative;
+   
+    
+    }
+
+    .lista {
+        position: absolute;
+        left: 32%;
+        top: 400px;
+        color: white;
+        max-width: 768px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .horarios{
+    position: relative;
+    
+    }
+
+    .texto-cafeteria{
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    left: 33%;
+    top: 200px;
+    color: white;
+    font-weight: normal;
+    padding: 2px 50px;
+    font-size: 40px;
+    letter-spacing: 8px;
+    }
+
+.lista li { /* tag <li> */
+        position: relative;
+    }
+    
+    .lista li h3 { /* subtitulo = <h3> */
+        color: #fff;
+        position: absolute;
+        font-size: 24px;
+    
+    }
+    
+        .lista li div  { /* tarja = <div> */
+            width: 70%;
+            height: 1px;
+            position: absolute;
+            margin: 0 auto;
+            top: 50%;
+            right: 0;
+            left: 0;
+            background-color: #ACACAC
+        }
+
+        .direita{
+            position:relative ;
+            left: 260px;
+            bottom: 6px;
+        }
+
+        span{
+            color: #604829;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+
+footer {
+    position:relative ;
+    bottom: 0px;
+    margin: 0;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    width: 100vw;
+    position: absolute;
+    top: -5px;
+}
+
+
+.footer{
+    color: #604829;
+    font-weight: bold;
+}
+
+.link{
+    position: relative;
+}
+
+.link-rodape{
+    position: absolute;
+    right: 50px;
+    top: -40px;
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;  
+}
